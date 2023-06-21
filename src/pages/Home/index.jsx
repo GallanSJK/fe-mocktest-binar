@@ -59,7 +59,7 @@ export default function Home() {
                 <div>
                     <form className="home__form" onSubmit={handleSubmit}>
                         <input className='home__form-input' value={input} type="text" placeholder='Enter a todo . . .' onChange={(e) => setInput(e.target.value)}/>
-                        <Button className='home__form-button' variant="warning">Add</Button>
+                        <Button className='home__form-button' variant="warning" type='submit'>Add</Button>
                     </form>
                 </div>
                 <div>
