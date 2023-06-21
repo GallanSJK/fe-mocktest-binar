@@ -31,7 +31,7 @@ export default function Login() {
                         <Form.Control type="number" placeholder="Masukan 4 angka" onChange={(e) => setAngka(e.target.value)}/>
                         <br />
                         <Form.Control type="text" placeholder="Masukan nama mu ya . ." onChange={(e) => setUser(e.target.value)}/>
-                        <Button variant="warning" type="submit" className='login-button'>Submit</Button>
+                        <Button variant="success" type="submit" className='login-button'>Submit</Button>
                     </Form.Group>
                 </Form>
             </div>

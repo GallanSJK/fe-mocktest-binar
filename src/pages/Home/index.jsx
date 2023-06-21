@@ -53,13 +53,13 @@ export default function Home() {
             <div className="home-container">
                 <div className="home__up">
                     <h5 className='home__user'>{user}</h5>
-                    <Button className='home__logout' variant="outline-warning" onClick={handleLogout}>Logout</Button>
+                    <Button className='home__logout' variant="outline-danger" onClick={handleLogout}>Logout</Button>
                 </div>
                 <h1 className='home__title'>Todo App</h1>
                 <div>
                     <form className="home__form" onSubmit={handleSubmit}>
                         <input className='home__form-input' value={input} type="text" placeholder='Enter a todo . . .' onChange={(e) => setInput(e.target.value)}/>
-                        <Button className='home__form-button' variant="warning" type='submit'>Add</Button>
+                        <Button className='home__form-button' variant="info" type='submit'>Add</Button>
                     </form>
                 </div>
                 <div>
